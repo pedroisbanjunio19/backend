@@ -6,9 +6,9 @@ var FacturaSchema = new mongoose.Schema({
     fecha: Object,
     base: Number,
     tipo: Number,
-    cobro: Object,
+    // cobro: Object,
     contabilizado: String,
-    fechaCont: Object
+    // fechaCont: Object
 });
 
 module.exports = mongoose.model('Factura', FacturaSchema);

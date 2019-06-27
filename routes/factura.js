@@ -42,9 +42,9 @@ app.post('/', (req, res)=>{
         fecha: body.fecha,
         base: body.base,
         tipo: body.tipo,
-        cobro: body.cobro,
+        // cobro: body.cobro,
         contabilizado: body.contabilizado,
-        fechaCont: body.fechaCont
+        // fechaCont: body.fechaCont
     });
     factura.save((err, facturaGuardada)=>{
         if (err) {
