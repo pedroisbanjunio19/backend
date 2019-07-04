@@ -7,7 +7,7 @@
     "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Pedro Jiménez pjimenez@qualitycw.com",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.1",
@@ -15,5 +15,8 @@
     "express": "^4.16.3",
     "mongoose": "^5.1.0",
     "npm": "^5.10.0"
+  },
+  "engines": {
+    "node": "10.15"
   }
 }
